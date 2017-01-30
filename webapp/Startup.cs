@@ -41,7 +41,7 @@ namespace webapp
 {
     // Database connection string. 
     // Make sure to update the Password value below from "your_password" to your actual password.
-    var connection = @"Server=db;Database=master;User=sa;Password=Yukon900;";
+    var connection = @"Server=172.17.0.8;Database=master;User=sa;Password=Yukon900;";
 
     // This line uses 'UseSqlServer' in the 'options' parameter
     // with the connection string defined above.
