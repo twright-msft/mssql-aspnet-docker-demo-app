@@ -45,7 +45,7 @@ namespace webapp
     // Use an environment variable to pass in the server name
     //var connection = @"Server=172.17.0.8;Database=master;User=sa;Password=Yukon900;";
     var server = System.Environment.GetEnvironmentVariable("DBServer");
-    var connection = String.Format("Server={0};Database=master;User=sa;Password=Yukon900;");
+    var connection = String.Format("Server={0};Database=master;User=sa;Password=Yukon900;",server);
 
     // This line uses 'UseSqlServer' in the 'options' parameter
     // with the connection string defined above.
