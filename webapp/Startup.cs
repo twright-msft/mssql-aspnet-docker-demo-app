@@ -40,12 +40,15 @@ namespace webapp
         public void ConfigureServices(IServiceCollection services)
 {
     // Database connection string. 
-    // Make sure to update the Password value below from "your_password" to your actual password.
-    //   OR
-    // Use an environment variable to pass in the server name
-    //var connection = @"Server=172.17.0.8;Database=master;User=sa;Password=Yukon900;";
-    var server = System.Environment.GetEnvironmentVariable("DBServer");
-    var connection = String.Format("Server={0};Database=master;User=sa;Password=Yukon900;",server);
+    // Use hard coded strings here
+    //  OR
+    // Use nvironment variables to pass in the server name, db name, user name, and password via Configuration
+    //var connection = @"Server=db;Database=mydb;User=sa;Password=Yukon900;";
+    var server = Configuration["DatabaseServer"];
+    var database = Configuration["DatabaseName"];
+    var user = Configuration["DatabaseUser"];
+    var password = Configuration["DatabaseUserPassword"];
+    var connection = String.Format("Server={0};Database={1};User={2};Password={3};",server,database,user,password);
 
     // This line uses 'UseSqlServer' in the 'options' parameter
     // with the connection string defined above.

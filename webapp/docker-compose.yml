@@ -7,6 +7,11 @@ services:
             - "8000:80"
         depends_on:
             - db
+        environment:
+            DatabaseServer: "db"
+            DatabaseName: "mydb"
+            DatabaseUser: "sa"
+            DatabaseUserPassword: "Yukon900"
     db:
         image: "microsoft/mssql-server-linux"
         ports: 
