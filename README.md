@@ -6,7 +6,7 @@ This is the standard ASP.NET defaul app, but with the twist of using SQL Server 
 # Running this demo
 Prerequisites:
 * Git
-* Docker for Mac, Docker for Windows, Docker Engine
+* Docker for Mac, Docker for Windows, or Docker Engine
 
 To run this demo, first create a folder, cd into it, and then git clone the project.
 ```
