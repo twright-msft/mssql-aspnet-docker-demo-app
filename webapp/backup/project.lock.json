@@ -11560,19 +11560,19 @@
     ".NETCoreApp,Version=v1.0": []
   },
   "tools": {
-    ".NETCoreApp,Version=v1.0": {
+    ".NETCoreApp,Version=v1.1": {
       "BundlerMinifier.Core/2.2.306": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.App": "1.1.0",
+          "Microsoft.NETCore.App": "1.1.1",
           "NUglify": "1.5.1",
           "Newtonsoft.Json": "9.0.1"
         },
         "compile": {
-          "lib/netcoreapp1.0/dotnet-bundle.dll": {}
+          "lib/netcoreapp1.1/dotnet-bundle.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp1.0/dotnet-bundle.dll": {}
+          "lib/netcoreapp1.1/dotnet-bundle.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Tools/1.1.0-preview4-final": {

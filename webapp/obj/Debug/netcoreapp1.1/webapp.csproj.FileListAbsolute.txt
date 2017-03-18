@@ -1,0 +1,9 @@
+/Users/travis/Projects/mssql-aspnet-docker-demo-app/webapp/bin/Debug/netcoreapp1.1/webapp.deps.json
+/Users/travis/Projects/mssql-aspnet-docker-demo-app/webapp/bin/Debug/netcoreapp1.1/webapp.runtimeconfig.json
+/Users/travis/Projects/mssql-aspnet-docker-demo-app/webapp/bin/Debug/netcoreapp1.1/webapp.runtimeconfig.dev.json
+/Users/travis/Projects/mssql-aspnet-docker-demo-app/webapp/bin/Debug/netcoreapp1.1/webapp.dll
+/Users/travis/Projects/mssql-aspnet-docker-demo-app/webapp/bin/Debug/netcoreapp1.1/webapp.pdb
+/Users/travis/Projects/mssql-aspnet-docker-demo-app/webapp/obj/Debug/netcoreapp1.1/webapp.AssemblyInfo.cs
+/Users/travis/Projects/mssql-aspnet-docker-demo-app/webapp/obj/Debug/netcoreapp1.1/webapp.dll
+/Users/travis/Projects/mssql-aspnet-docker-demo-app/webapp/obj/Debug/netcoreapp1.1/webapp.pdb
+/Users/travis/Projects/mssql-aspnet-docker-demo-app/webapp/obj/Debug/netcoreapp1.1/UserSecretsAssemblyInfo.cs

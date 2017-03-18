@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.UserSecrets;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using webapp.Data;
@@ -27,7 +28,7 @@ namespace webapp
             if (env.IsDevelopment())
             {
                 // For more details on using the user secret store see https://go.microsoft.com/fwlink/?LinkID=532709
-                builder.AddUserSecrets();
+                builder.AddUserSecrets<Startup>();
             }
 
             builder.AddEnvironmentVariables();
@@ -42,7 +43,7 @@ namespace webapp
     // Database connection string. 
     // Use hard coded strings here
     //  OR
-    // Use nvironment variables to pass in the server name, db name, user name, and password via Configuration
+    // Use environment variables to pass in the server name, db name, user name, and password via Configuration
     //var connection = @"Server=db;Database=mydb;User=sa;Password=Yukon900;";
     var server = Configuration["DatabaseServer"];
     var database = Configuration["DatabaseName"];
